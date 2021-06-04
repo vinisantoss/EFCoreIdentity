@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "College.IdentityDapper", "College.Identity\College.IdentityDapper.csproj", "{56C8863C-FBF2-4DFA-90DF-6C4DB36832FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "College.IdentityEF", "College.IdentityEF\College.IdentityEF.csproj", "{6EA4B05E-60E8-450C-A709-B7C34E6F755F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "College.IdentityWebApi", "College.IdentityWebApi\College.IdentityWebApi.csproj", "{4AD2FA9D-B6CD-4C72-9519-861256963F79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "College.IdentityWebApi.Domain", "College.IdentityWebApi.Domain\College.IdentityWebApi.Domain.csproj", "{B713F9E6-2964-42FA-9BF7-A05677BCFC56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "College.IdentityWebApi.Repository", "College.IdentityWebApi.Repository\College.IdentityWebApi.Repository.csproj", "{B66B195E-5080-4A13-9AB1-2EF771809108}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56C8863C-FBF2-4DFA-90DF-6C4DB36832FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C8863C-FBF2-4DFA-90DF-6C4DB36832FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C8863C-FBF2-4DFA-90DF-6C4DB36832FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C8863C-FBF2-4DFA-90DF-6C4DB36832FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA4B05E-60E8-450C-A709-B7C34E6F755F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA4B05E-60E8-450C-A709-B7C34E6F755F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA4B05E-60E8-450C-A709-B7C34E6F755F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA4B05E-60E8-450C-A709-B7C34E6F755F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AD2FA9D-B6CD-4C72-9519-861256963F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AD2FA9D-B6CD-4C72-9519-861256963F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AD2FA9D-B6CD-4C72-9519-861256963F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AD2FA9D-B6CD-4C72-9519-861256963F79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B713F9E6-2964-42FA-9BF7-A05677BCFC56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B713F9E6-2964-42FA-9BF7-A05677BCFC56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B713F9E6-2964-42FA-9BF7-A05677BCFC56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B713F9E6-2964-42FA-9BF7-A05677BCFC56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B66B195E-5080-4A13-9AB1-2EF771809108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B66B195E-5080-4A13-9AB1-2EF771809108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B66B195E-5080-4A13-9AB1-2EF771809108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B66B195E-5080-4A13-9AB1-2EF771809108}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2716E1CF-4748-4C36-B76D-5D69F396265C}
+	EndGlobalSection
+EndGlobal

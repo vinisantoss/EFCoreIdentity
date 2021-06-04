@@ -1,0 +1,20 @@
+﻿@model College.Identity.Models.RegisterModel
+
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h1></h1>
+
+<div>
+    <h4>RegisterModel</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-10">
+            @Html.DisplayNameFor(model => model.UserName)
+        </dt>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Voltar para criação</a>
+</div>
